@@ -1,16 +1,15 @@
-html,
-body {
-  min-height: 100vh;
-  padding: 0;
-  margin: 0;
-  font-family: system-ui, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+:root{
+  --color-131921: #131921;
+  --color-3b4149: #3b4149;
+  --color-febd69: #febd69;
 }
 
 * {
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+

@@ -1,0 +1,19 @@
+/* Start Header Style */
+.headerTop{
+    border-bottom: 1px solid var(--color-3b4149);
+    background-color: var(--color-131921);
+}
+
+.headerUpper{
+    background-color: var(--color-131921);
+}
+
+.headerUpper .inputGroupText {
+    background-color: var(--color-febd69);
+}
+
+.headerUpper .formControl:focus {
+    box-shadow: none;
+    border-color:inherit;
+}
+/* End Header Style */
