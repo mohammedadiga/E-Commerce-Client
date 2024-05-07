@@ -1,10 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.css';
+"use client"
 import "./styles/globals.css";
 
 import { Rubik } from 'next/font/google'
 
 
-import type { ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 import { StoreProvider } from "./StoreProvider";
 
 import { Header } from "./components/Header/Header";
@@ -23,6 +23,14 @@ const rubik = Rubik({
 })
 
 export default function RootLayout({ children }: Props) {
+
+  useEffect(() => {
+    if(typeof window !== 'undefined'){
+      require('bootstrap/dist/js/bootstrap.min.js')
+    }
+
+  }, [])
+
   return (
     <StoreProvider>
       <html lang="en">

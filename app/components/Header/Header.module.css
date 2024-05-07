@@ -1,4 +1,8 @@
 /* Start Header Style */
+.primary{
+    color: var(--color-febd69);
+}
+
 .headerTop{
     border-bottom: 1px solid var(--color-3b4149);
     background-color: var(--color-131921);
@@ -16,4 +20,38 @@
     box-shadow: none;
     border-color:inherit;
 }
+
+.headerBotton {
+    background-color: var(--color-232f3e);
+}
+
+.headerBotton .menuBottom .menuDropdown button,
+.headerBotton .menuBottom .menuLink a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3;
+    text-transform: uppercase;
+}
+
+.headerBotton .menuBottom .menuDropdown button:focus{
+    box-shadow: none;
+}
+
+.headerBotton .menuBottom .menuDropdown ul{
+    background-color: var(--color-131921);
+    width: 100%;
+    transform: translate(0px, 35px) !important;
+}
+
+.headerBotton .menuBottom .menuDropdown a{
+    padding: 10px;
+    border-bottom: 1px solid var(--color-3b4149);
+}
+
+.headerBotton .menuBottom .menuDropdown a:hover{
+    background-color: transparent;
+    color: var(--color-febd69);
+}
+
 /* End Header Style */
