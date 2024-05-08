@@ -8,7 +8,7 @@ import { useEffect, type ReactNode } from "react";
 import { StoreProvider } from "./StoreProvider";
 
 import { Header } from "./components/Header/Header";
-import { Footer } from "./components/Footer";
+import { Footer } from "./components/Footer/Footer";
 
 
 // import styles from "./styles/layout.module.css";

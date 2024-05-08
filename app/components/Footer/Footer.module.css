@@ -1,0 +1,29 @@
+/* Start Footer Style */
+.footerTop{
+    border-bottom: 1px solid var(--color-3b4149);
+    background-color: var(--color-232f3e);
+}
+
+.footerUpper{
+    background-color: var(--color-232f3e);
+    color: white;
+}
+
+.footerUpper .socialLink {
+    color: red;
+}
+
+.footerTop .inputGroup .inputGroupText{
+    background-color: var(--color-232f3e);
+    color: white;
+}
+
+.footerBotton {
+    border-top: 1px solid var(--color-3b4149);
+    background-color: var(--color-232f3e);
+    color: white;
+    padding: 8px 17px;
+}
+
+
+/* End Footer Style */
