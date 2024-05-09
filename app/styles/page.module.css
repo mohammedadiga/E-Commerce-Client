@@ -1,0 +1,65 @@
+/* Start Home Page Style */
+.mainBanner img{
+    border-radius: 5px;
+}
+
+.mainBanner .mainBannerContent {
+    top: 15%;
+    left: 5%;
+}
+
+.mainBanner .mainBannerContent h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-bf4800);
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.mainBanner .mainBannerContent h5 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-transform: none;
+}
+
+.mainBanner .mainBannerContent p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4;
+    color: var(--color-131921);
+}
+
+.mainBanner .smallBannerContent {
+    top: 15%;
+    left: 5%;
+}
+
+.mainBanner .smallBannerContent h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-bf4800);
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.mainBanner .smallBannerContent h5 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -1px;
+    text-transform: none;
+}
+
+.mainBanner .smallBannerContent p {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.4;
+    color: var(--color-131921);
+}
+
+
+/* End Home Page Style */
