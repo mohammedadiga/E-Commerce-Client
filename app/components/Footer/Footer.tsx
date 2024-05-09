@@ -31,18 +31,20 @@ export const Footer = () => {
               <h5 className="mb-4">Contact Us</h5>
 
               <div className="py-2">
-                <p>Demo Store <br />No. 1259 Freedom. New york. 1111 <br />United States</p>
-                <Link className="d-block" href="tel: +91 123456789">
+                <address className="fs-6">Demo Store <br />No. 1259 Freedom. New york. 1111 <br />United States</address>
+                <Link className="d-block my-2 " href="tel: +91 123456789">
                   +91 123456789
                 </Link>
-                <Link className="d-block" href="mailto: info@Ecommerce.com">
+                <Link className="d-block my-3" href="mailto: info@Ecommerce.com">
                   info@Ecommerce.com
                 </Link>
-                <Link className={styles.socialLink} href={'/'}><BsTwitter /></Link>
-                <Link className={styles.socialLink} href={'/'}><BsFacebook /></Link>
-                <Link className={styles.socialLink} href={'/'}><BsPinterest /></Link>
-                <Link className={styles.socialLink} href={'/'}><BsInstagram /></Link>
-                <Link className={styles.socialLink} href={'/'}><BsYoutube /></Link>
+                <div className="d-flex align-items-center gap-10">
+                  <Link className={styles.socialLink} href={'/'}><BsTwitter className="fs-6" /></Link>
+                  <Link className={styles.socialLink} href={'/'}><BsFacebook className="fs-6" /></Link>
+                  <Link className={styles.socialLink} href={'/'}><BsPinterest className="fs-6" /></Link>
+                  <Link className={styles.socialLink} href={'/'}><BsInstagram className="fs-6" /></Link>
+                  <Link className={styles.socialLink} href={'/'}><BsYoutube className="fs-6" /></Link>
+                </div>
               </div>
 
             </div>

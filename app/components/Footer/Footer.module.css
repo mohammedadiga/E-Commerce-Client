@@ -10,7 +10,9 @@
 }
 
 .footerUpper .socialLink {
-    color: red;
+    background-color: var(--color-3b4149);
+    padding: 10px 14px;
+    border-radius: 50px;
 }
 
 .footerTop .inputGroup .inputGroupText{
